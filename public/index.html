@@ -32,9 +32,12 @@
         free-vaccine-slots
     </title>
     <style>
+        body {
+             font-family: 'Trebuchet MS', sans-serif;
+        }
         table {
-            width: 95%;
-            padding: 20px;
+            width: 100%;
+            padding: 16px;
             border-spacing: 16px;
         }
 
@@ -47,7 +50,7 @@
 
 <body>
     <h2>
-        Free slot finder - Bangalore for ages < 45 </h2>
+        Free slot finder - Bangalore (BBMP) for ages < 45 </h2>
             <div id="write-here">
 
 
@@ -113,7 +116,7 @@
                             }
 
                             if (listofslots.length == 0) {
-                                listofslots = '<h2>No slots found in Bangalore for ages < 45</h2>'
+                                listofslots = '<h3>No slots found in Bangalore (BBMP) for ages < 45</h3>'
                             }
 
                             document.getElementById("write-here").innerHTML = '<table><thead><tr><th>Center</th><th>Pincode</th><th>Vaccine</th><th>Available capacity </th><th>Date</th><th>Slots</th></tr></thead><tbody>' + listofslots + '</tbody></p>';
