@@ -117,8 +117,7 @@
                 }
 
 
-                function loaddata(url) {
-                    console.log('', url);
+                function loaddata(url) {                    
                     showloading();
                     var listofslots = '';
                     fetch(url).then(
@@ -202,8 +201,7 @@
                     document.getElementById("loading-div").style.visibility = 'visible';
                 }
 
-                function hideloading() {
-                    console.log('hide');
+                function hideloading() {                   
                     document.getElementById("loading-div").style.visibility = 'hidden';
                 }
                 window.onload = function () {
