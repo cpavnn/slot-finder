@@ -76,7 +76,7 @@
         Free slot finder - Karnataka
         <select id="district-selector">
             <option value="294"> Bangalore BBMP</option>
-        </select> for ages < 45 </h2>
+        </select> for < 45 years of age </h2>
             <div id="write-here">
             </div>
 
@@ -154,7 +154,7 @@
                             }
 
                             if (listofslots.length == 0) {
-                                listofslots = '<h3>No slots found in ' + getCurrentDistrictSelection() + ' for ages < 45</h3>'
+                                listofslots = '<h3>No slots found in ' + getCurrentDistrictSelection() + ' for < 45 years of age</h3>'
                             }
                                 document.getElementById("write-here").innerHTML = '<table><thead><tr><th>Center</th><th>Pincode</th><th>Vaccine</th><th>Available capacity </th><th>Date</th><th>Slots</th></tr></thead><tbody>' + listofslots + '</tbody></p>';
                             
